@@ -1,0 +1,12 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        NeosRulez.Bootstrap.Columns: true
+    userInterface:
+      translation:
+        autoInclude:
+          NeosRulez.Bootstrap.Columns:
+            - 'NodeTypes/*'
+            - 'NodeTypes/Content/*'
+            - 'NodeTypes/Mixin/*'

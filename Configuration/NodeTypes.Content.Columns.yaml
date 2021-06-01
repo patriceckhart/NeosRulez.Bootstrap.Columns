@@ -1,0 +1,22 @@
+'NeosRulez.Bootstrap.Columns:Content.Columns':
+  superTypes:
+    'NeosRulez.Bootstrap:Component.AbstractContent': true
+    'NeosRulez.Bootstrap:Mixin.Column': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    label: i18n
+    icon: columns
+    group: structure
+    position: end
+    inspector:
+      groups:
+        column:
+          label: NeosRulez.Bootstrap.Columns:NodeTypes.Content.Columns:ui.label
+          icon: columns
+  properties:
+    breakpoint:
+      ui: ~
+  constraints:
+    nodeTypes:
+      '*': false
+      'NeosRulez.Bootstrap.Columns:Content.Column': true

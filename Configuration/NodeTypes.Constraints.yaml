@@ -1,0 +1,5 @@
+'Neos.Neos:ContentCollection':
+  constraints:
+    nodeTypes:
+      'NeosRulez.Bootstrap.Columns:Content.Column': false
+      '*': true
