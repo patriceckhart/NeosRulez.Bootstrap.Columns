@@ -20,6 +20,7 @@ prototype(NeosRulez.Bootstrap.Columns:Content.Column) < prototype(Neos.Neos:Cont
         itemName = 'col'
         iterationName = 'colIterator'
         itemRenderer = ${'col-' + col + (colIterator.isLast ? '' : ' ')}
+        @if.condition = ${node.properties.col}
     }
     attributes.class = ${col ? col : 'col'}
 }
