@@ -8,6 +8,9 @@
             <trans-unit id="properties.col" xml:space="preserve">
 				<source>Spaltenumbrüche</source>
 			</trans-unit>
+            <trans-unit id="properties.className" xml:space="preserve">
+				<source>CSS Klassen</source>
+			</trans-unit>
         </body>
     </file>
 </xliff>
